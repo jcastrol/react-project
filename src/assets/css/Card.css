@@ -1,0 +1,27 @@
+.listCharacter{
+    display: flex;
+    padding: 10vh;
+    flex-wrap: wrap;
+    align-items:center ;
+    gap: 20px;
+}
+
+.card{
+    width: 300px;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border: 2px;
+} 
+.text {
+    align-self: start;
+    font-size: 16px; /* Tamaño de fuente base */
+    line-height: 1.5; /* Espaciado entre líneas */
+    color: #333; /* Color de texto base */
+}
+
+.text span {
+    font-weight: bold; /* Aplicar negrita a elementos <strong> dentro de .text */
+}
